@@ -1,0 +1,57 @@
+1) What is Git?
+   - Its A Version Control System.(VCS)
+   - A Software designed to track the chnages made to a single file or multiple files over time.
+   - It gives the ability to revert back to the previous file or project version.
+   - It gives the ability to compare the changes made to files from one version to another version.
+   - It version controls any plain text, not just source codes.
+   
+2) What are the 3 stages of a file in git?
+   -commited 
+   -modified
+   -staged
+   * These 3 stages of a files are applied to only those files which have been tracked by git.
+3) What does commited means ?
+   - It means the data inside the file is safely stored inside the local database of that project.
+
+4) What does modified means ?
+   - It means the file content has changed from its last commited state in the local database. But these changes has not been commited yet.
+
+5) What does staged means ?
+   - It means the modified files are now marked for commit and can be commited.
+   
+6) What does untracked files mean ?
+   - Those files which have been added to the project since the last commit snapshot that git has not been tracking.
+
+7) What are the three main parts of a git project ?
+   - Working Directory
+   - Staging Area
+   - .git Directory
+
+8) What is .git Directory or git repository ?
+   - Origin of project data
+   - Also contains the data which is pulled down from the remote server
+   - This is the directory where git keeps all of its metadata for the repository.
+   - The content of the .git directory are private to git.
+   - Files in this state are commited and recored to the project as a version snapshot.
+   
+9) What is working directory ?
+   - This is a single copy or a checkout version of the project from origin.
+   
+10) What is the staging area ?
+   - Also known as index.
+   - Sets between the working directory and the .git directory.
+   - One can take the snapshot of the working directory and make changes to certain files and make them ready for next commit. Until the next commit or stash, 
+     these modified files will be in the staging area.
+   - When You commit these modified files and push them to the git repository, then they will come under the .git directory.
+   
+11) List some of the git command line commands ?
+   - git --version (command to know the version of git or to know if the git is installed or not).
+   - git config --global user.name "Biswajita" (To set the user name)
+   - git config --global user.email "biswajita.dash@gmail.com" (To set the user email)
+   - git config --list (To check configuration settings)
+   - git help (If you want to know anything about git commands)
+   - git init (To initialize git repository)
+   - 
+
+
+   
