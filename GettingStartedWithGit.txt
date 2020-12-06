@@ -51,7 +51,28 @@
    - git config --list (To check configuration settings)
    - git help (If you want to know anything about git commands)
    - git init (To initialize git repository)
+   - git add . (To add all the files to the staging area, so that we can track the files)
+   - git add <file_name> (To add a particular file to the staging area)
+   - git commit -m "message you want to give for your commit" (To commit your changes)
+   - git remote add origin "url of the origin repository" (To add the origin github repository to our local repository)
+   - git push -u origin master (To push the the local repository which is pointing to the origin repository)
+   - git status (To know the status of the local repository)
+   - git status -s (or) git status --short (To know the git status in short) (In short status, M - modified ; A - newly added file ; ?? - untracked file)
+   - git diff (it will show the difference between the modified files or the files that are staged to be commited with the last commited snapshot) (This command output contains data like compared files,
+     file metadata, chunk headers, chunk changes, change maker for files)
+   - git diff --staged (This command will compare and show the difference between the staged files with the last commited snapshot) 
+   - git diff --staged --no-renames (When git finds finds two files with same conntent at that time, at that time even though the files names are different it will show similarity index as 100% and tells that
+     a copy of file b has been created from a. To avoid this scenario and tell that we have not copied the same file, we use this command.)
+   - git commit -a -m "message" (To commit all the changes along with staging them to the staging area)
+   - git log (To know the commit history, most recent commit will show first. This will show author name, email and date on which the changes were commited)
+   - git log -<number to which you want to limit the git log> (git log -3 -> It will limit the log to 3 commits)
+   - git log --oneline (To show all the commits in one line format)
+   - git log --stat (To get the commit history in detailed format)
+   - git log --patch (Detailed commit history along with the differences in file versions)
+   - git rm <file_name> (To remove a file from the project and not to get tracked by git anymore)
+   - git rm --cached <file_name> (To untrack a file but not to remove the file from the project)
+   - git mv <old_fileName> <new_fileName> (To rename the file name)
+   - git checkout -b <branch_name> (To checkout to a different branch)
    - 
-
 
    
