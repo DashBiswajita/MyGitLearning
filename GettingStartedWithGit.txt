@@ -74,5 +74,6 @@
    - git mv <old_fileName> <new_fileName> (To rename the file name)
    - git checkout -b <branch_name> (To checkout to a different branch)
    - 
+   
 
    
