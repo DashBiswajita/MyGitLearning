@@ -72,8 +72,11 @@
    - git rm <file_name> (To remove a file from the project and not to get tracked by git anymore)
    - git rm --cached <file_name> (To untrack a file but not to remove the file from the project)
    - git mv <old_fileName> <new_fileName> (To rename the file name)
-   - git checkout -b <branch_name> (To checkout to a different branch)
-   - 
-   
+   - git checkout -b <branch_name> (To checkout to a new branch)
+   - git checkout <branch_name> (To checkout to an existing branch)
+   - git stash (To stash the modified files if you dont want to commit the changes at that time , used when your changes are in WIP)
+   - git stash list (This shows the list the WIP changes that we stashed with some commit data)
+   - git stash show (This shows a detailed view of what we stashed)
+   - git 
 
    
